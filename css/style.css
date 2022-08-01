@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.align-center{
+    align-items: center;
+}
+.heading h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F8991C;
+}
+.heading h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+.btn{
+    padding: 14px 41px;
+    background-color: #F8991C;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    display:inline-block;
+}
+/* nav starts */
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+}
+nav .menu ul li a{
+    display: block;
+    padding: 50px 30px;
+    font-weight: 400;
+    font-size: 14px; 
+    color: #000000;
+    text-transform: uppercase;
+}
+/* nav ends */
+/* banner starts */
+#banner{
+    background-color: #F8F8F8;
+    height: 660px;
+}
+#banner .banner_cnt{
+    width: 60%;
+    
+}
+#banner .banner_img{
+    width: 40%;
+}
+#banner .banner_img img{
+    width: 100%;
+}
+#banner .banner_cnt h4{
+    font-weight: 400;
+    font-size: 28px;
+    list-style: 61px;
+    color: #000000;
+}
+#banner .banner_cnt h2{  
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 61px;
+   color: #000000;
+}
+#banner .banner_cnt p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#banner .banner_cnt a{
+    margin-top: 30px;
+}
+#banner .banner_cnt .follow_on{
+    margin-top: 170px;
+    position: relative;
+    width: 200px;
+}
+#banner .banner_cnt .follow_on p{
+    font-size: 16px;
+}
+#banner .banner_cnt .follow_on .follow_icon{
+    position: absolute;
+    top: -24px;
+    right: 11px;
+}
+/* banner ends */
+/* about starts */
+#about{
+    margin: 76px 0;
+}
+#about .about_img{
+    width: 50%;
+    filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.25));
+    
+}
+#about .about_cnt{
+    width: 50%;
+    
+}
+#about .about_cnt p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #000000;
+}
+#about .about_cnt a{
+    margin-top: 46px;
+}
+#about .about_cnt .button a:last-child{
+    background-color: white;
+    color:#000;
+    border: 1px solid #F8991C;
+    margin-left: 59px;
+}
+#about .about_cnt img{
+    display: inline-block;
+    padding: 50px 0;
+}
+/* about ends */
